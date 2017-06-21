@@ -1,0 +1,29 @@
+{
+  "name": "hatchery",
+  "version": "0.0.1",
+  "description": "Prototype PWA for Red Hat idea incubation lab",
+  "main": "app.js",
+  "scripts": {
+    "setup": "sudo npm install -g gulp",
+    "build": "gulp build",
+    "start": "node app.js",
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/debloper/hatchery.git"
+  },
+  "keywords": [
+    "redhat",
+    "labs",
+    "idea",
+    "innovation",
+    "incubation"
+  ],
+  "author": "Soumya Deb <debloper@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/debloper/hatchery/issues"
+  },
+  "homepage": "https://github.com/debloper/hatchery#readme"
+}
