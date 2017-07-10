@@ -6,12 +6,22 @@
   "scripts": {
     "setup": "sudo npm install -g gulp",
     "build": "gulp build",
-    "start": "node app.js",
+    "start": "node ./bin/www",
     "test": "gulp test"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/debloper/hatchery.git"
+  },
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "ejs": "^2.5.6",
+    "express": "~4.15.2",
+    "morgan": "~1.8.1",
+    "node-sass-middleware": "^0.11.0",
+    "serve-favicon": "~2.4.2"
   },
   "keywords": [
     "redhat",
